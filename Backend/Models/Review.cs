@@ -1,6 +1,6 @@
 namespace TestApi.Models
 {
-    enum Rating
+    public enum Rating
     {
         red,
         yellow,
@@ -16,7 +16,7 @@ namespace TestApi.Models
 
         public Rating rating { set; get; }
 
-        public DateTime votingTime { set; get; }
+        public System.DateTime votingTime { set; get; }
 
         public string comment { set; get; }
     }

@@ -8,9 +8,9 @@ namespace TestApi.Models
 
         public string abbreviation {set; get;}
 
-        public DateTime beginning {set; get;}
+        public System.DateTime beginning {set; get;}
 
-        public DateTime ending {set; get;}
+        public System.DateTime ending {set; get;}
 
         public Lecture[] lectures {set; get;}
     }
